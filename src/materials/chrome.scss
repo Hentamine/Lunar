@@ -1,0 +1,18 @@
+$chrome: 0.3 !default;
+$chrome-medium: 0.4 !default;
+$chrome-heavy: 0.5 !default;
+$blur-amount: 20px !default;
+
+.chrome {  
+  background: rgba(0,0,0, $chrome);
+  -webkit-backdrop-filter: blur($blur-amount);
+  backdrop-filter: blur($blur-amount); 
+
+  &.medium {
+    background: rgba(0,0,0, $chrome-medium);
+  }
+
+  &.heavy {
+    background: rgba(0,0,0, $chrome-medium);
+  }
+}

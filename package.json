@@ -1,0 +1,21 @@
+{
+  "name": "lunar",
+  "version": "0.0.0",
+  "description": "Hentamine CSS Framework",
+  "main": "src/lunar.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/lunar.scss dist/lunar.css",
+    "watch": "node-sass -w -r src/lunar.scss dist/lunar.css"
+  },
+  "keywords": [
+    "Hentamine",
+    "Lunar",
+    "CSS",
+    "UI",
+    "SCSS",
+    "Sass"
+  ],
+  "author": "Hentamine",
+  "license": "MIT"
+}

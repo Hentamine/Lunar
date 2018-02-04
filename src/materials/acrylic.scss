@@ -1,0 +1,18 @@
+$acrylic: 0.6 !default;
+$acrylic-medium: 0.7 !default;
+$acrylic-heavy: 0.8 !default;
+$blur-amount: 30px !default;
+
+.acrylic {  
+  background: rgba(255,255,255,$acrylic);
+  -webkit-backdrop-filter: blur($blur-amount);
+  backdrop-filter: blur($blur-amount); 
+
+  &.medium {
+    background: rgba(255,255,255,$acrylic-medium);
+  }
+
+  &.heavy {
+    background: rgba(255,255,255,$acrylic-heavy);
+  }
+}

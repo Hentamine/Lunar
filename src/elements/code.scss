@@ -1,0 +1,18 @@
+$code-font-family: 'Consolas', 'Courier New', Courier, monospace;
+
+code {
+  font-family: $code-font-family;
+	font-size: 86%;
+	white-space: nowrap;
+}
+
+pre {
+	background: #efefef;
+	border-left: .3rem solid black;
+
+	&>code {
+		border-radius: 0;
+		display: block;	
+    white-space: pre;
+  }
+}

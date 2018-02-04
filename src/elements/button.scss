@@ -1,0 +1,35 @@
+$button-background: black !default;
+$button-color: white !default;
+$button-padding: .5em 1em !default;
+$button-margin: 1em 0 !default;
+$button-border-size: 1px !default;
+
+button {
+  background: $button-background;
+  color: $button-color;
+  width: 100%;
+  border: $button-border-size solid black;
+  font: inherit;
+  line-height: 1;
+  padding: $button-padding;
+  margin: $button-margin;
+  transition: 0.25s;
+  cursor: pointer;
+  outline: 0;
+
+  &:active {
+    transform: scale(0.975);
+  }
+
+  &.small {
+    width: 6rem;
+  }
+
+  &.medium {
+    width: 8rem;
+  }
+
+  &.large {
+    width: 10rem;
+  }
+}

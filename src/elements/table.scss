@@ -1,0 +1,26 @@
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  font-weight: 500;
+}
+
+td,
+th {
+  border-bottom: 1px solid #efefef;
+  padding: 1.2rem 1.0rem;
+  text-align: left;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.selectable tr {
+  transition: 0.2s;  
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
