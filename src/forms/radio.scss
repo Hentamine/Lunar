@@ -1,0 +1,24 @@
+fieldset.radio {
+  // display: inline-block;
+  input[type="radio"] {
+    display:none;
+
+    &:checked {
+      +label{
+        border-color: #444;
+      }
+    }
+
+    +label{
+      cursor: pointer;
+      display: inline-block;
+      padding: 1rem;
+      margin: 0;
+      border: 1px solid #efefef;
+
+      &:hover {
+        background: rgba(0,0,0,0.05);
+      }
+    }
+  }
+}
