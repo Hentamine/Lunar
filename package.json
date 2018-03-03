@@ -8,6 +8,10 @@
     "build": "node-sass src/lunar.scss dist/lunar.css",
     "watch": "npm run build && node-sass -w -r src/lunar.scss dist/lunar.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hentamine/lunar.git"
+  },  
   "keywords": [
     "Hentamine",
     "Lunar",
@@ -16,8 +20,12 @@
     "SCSS",
     "Sass"
   ],
-  "author": "Hentamine",
+  "author": "hentamine",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hentamine/lunar/issues"
+  },
+  "homepage": "https://github.com/hentamine/lunar#readme",
   "devDependencies": {
     "node-sass": "^4.7.2"
   }
