@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/hentamine/lunar/issues"
   },
-  "homepage": "https://hentamine.github.com/lunar",
+  "homepage": "https://hentamine.github.com/Lunar",
   "devDependencies": {
     "node-sass": "^4.7.2"
   }

@@ -2,7 +2,7 @@
 v0.1.0
 
 A open-source, modular css framework.
-https://hentamine.github.io/lunar
+https://hentamine.github.io/Lunar
 
 Lunar is not production ready.
 
