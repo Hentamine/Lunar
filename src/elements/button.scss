@@ -4,10 +4,13 @@ $button-padding: .5em 1em !default;
 $button-margin: 1em 0 !default;
 $button-border-size: 1px !default;
 
+$ghost-button-color: black !default;
+
+$flat-button-color: black !default;
+
 button {
   background: $button-background;
-  color: $button-color;
-  width: 100%;
+  color: $button-color;  
   border: $button-border-size solid black;
   font: inherit;
   line-height: 1;
@@ -18,7 +21,7 @@ button {
   outline: 0;
 
   &:active {
-    transform: scale(0.975);
+    transform: scale(0.98);
   }
 
   &.small {
@@ -31,5 +34,38 @@ button {
 
   &.large {
     width: 10rem;
+  }
+
+  &.wide {
+    width: 100%;
+  }
+
+  &.ghost {
+    color: $ghost-button-color;
+    border: $button-border-size solid $ghost-button-color;
+
+    &:hover, &:active {
+      color: white;
+      background: black;
+    }
+  }
+
+  &.flat {
+    color: $flat-button-color;    
+    border:none;
+    background: rgba(0,0,0,0.05);
+
+    &>a {
+      color: $flat-button-color;
+      text-decoration: none;
+    }
+
+    &:hover, &:active {
+      background: rgba(0,0,0,0.1);
+    }
+  }
+
+  &.ghost {    
+    background: none;
   }
 }
